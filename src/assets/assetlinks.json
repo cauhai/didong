@@ -3,7 +3,7 @@
       "relation": ["delegate_permission/common.handle_all_urls"],
       "target": {
         "namespace": "android_app",
-        "package_name": "com.atb.businessmobile",
+        "package_name": "ca.didong",
         "sha256_cert_fingerprints": ["1D:59:84:9C:E1:37:EB:E5:35:1B:B3:B5:06:84:30:35:D1:B3:52:F1:CE:34:F1:2F:E9:0E:15:18:33:CE:AF:22"]
       }
     }
