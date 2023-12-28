@@ -1,0 +1,9 @@
+
+{
+  "appId": "ca.didong",
+  "appName": "didong",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}
