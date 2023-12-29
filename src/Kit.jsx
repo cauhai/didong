@@ -1,12 +1,16 @@
-import { Link } from "react-router-dom"
+import { Link, useParams } from "react-router-dom"
 import kit from './assets/kit.png'
 
 const Kit = () => {
+  let { n } = useParams();
 
   return (
     <>
-      <h1>KITTY</h1>
-      <img width="200" src={kit} />
+      <h1>KITS</h1>
+      {
+        Array.from({ length: n },
+          (_, i) => <img id={i} width="100" src={kit} />)
+      }
       <br />
       <Link to={`/`}>Home</Link>
     </>

@@ -8,14 +8,14 @@ import Kit from './Kit'
 const router = createBrowserRouter([
   { path: "/", element: <Home /> },
   { path: "/duck", element: <Duck /> },
-  { path: "/kit", element: <Kit /> },
+  { path: "/kit/:n", element: <Kit /> },
 ])
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  
     <RouterProvider router={router}>
       <Home />
     </RouterProvider>
-  </React.StrictMode>,
+ 
 )
