@@ -16,5 +16,8 @@ public class MainActivity extends BridgeActivity {
         Uri appLinkData = appLinkIntent.getData();
 
         System.out.println("URI " + appLinkData);
+        System.out.println("appLinkAction: " + appLinkAction);
+
+        
     }
 }
